@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchScreen /> debe de mostrar el search y el input con el valor del queryString 1`] = `
+<div
+  className="container mt-5"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-12 col-md-5 mb-4 mb-md-0"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        className="animate__animated animate__fadeIn"
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="search"
+          onChange={[Function]}
+          placeholder="Find your hero..."
+          type="text"
+          value="batman"
+        />
+        <div
+          className="d-grid"
+        >
+          <button
+            className="btn btn-outline-success mt-2"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-12 col-md-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="animate__animated animate__fadeIn"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="card"
+          >
+            <div
+              className="row g-4"
+            >
+              <div
+                className="col-md-4"
+              >
+                <img
+                  alt="Batman"
+                  className="card-img-top"
+                  src="./assets/heroes/dc-batman.jpg"
+                />
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-title"
+                  >
+                    Batman
+                  </h5>
+                  <p
+                    className="card-text mb-1"
+                  >
+                    Bruce Wayne
+                  </p>
+                  <p
+                    className="card-text mb-3"
+                  >
+                    <small
+                      className="text-muted"
+                    >
+                      Detective Comics #27
+                    </small>
+                  </p>
+                  <a
+                    href="/hero/dc-batman"
+                    onClick={[Function]}
+                  >
+                    Leer más...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en <SearchScreen /> debe de mostrarse correctamente con valores por defecto 1`] = `
+<div
+  className="container mt-5"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-12 col-md-5 mb-4 mb-md-0"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        className="animate__animated animate__fadeIn"
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="search"
+          onChange={[Function]}
+          placeholder="Find your hero..."
+          type="text"
+          value=""
+        />
+        <div
+          className="d-grid"
+        >
+          <button
+            className="btn btn-outline-success mt-2"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-12 col-md-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="animate__animated animate__fadeIn"
+      >
+        <div
+          className="alert alert-info"
+        >
+          Search a hero
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
